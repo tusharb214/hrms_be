@@ -20,7 +20,7 @@ public class EmailService {
     private final LeaveRepository leaveRepository;   // NEW — for leave-day guard
 
     private static final String LOGO_URL =
-            "https://raw.githubusercontent.com/abhi1231/asseta/refs/heads/main/Finabits.png";
+            "https://github.com/sitegenius-dev/logo.git";
 
     // ── Core HTML sender ──────────────────────────────────────────────────────
     @Async
@@ -66,7 +66,7 @@ public class EmailService {
                 ".badge-high{background:#FEE2E2;color:#C0392B;}" +
                 "</style></head><body>" +
                 "<div class='wrapper'>" +
-                "<div class='header'><img src='" + LOGO_URL + "' alt='Finabits' class='logo-img'/></div>" +
+                "<div class='header'><img src='" + LOGO_URL + "' alt='Sitegenius' class='logo-img'/></div>" +
                 "<div class='accent-bar'></div>" +
                 "<div class='body'>" +
                 "<div class='icon-wrap'>" + icon + "</div>" +
@@ -74,8 +74,8 @@ public class EmailService {
                 bodyContent +
                 "</div>" +
                 "<div class='footer'>" +
-                "<img src='" + LOGO_URL + "' alt='Finabits'/>" +
-                "© Finabits HRMS &nbsp;·&nbsp; Automated notification &nbsp;·&nbsp; Do not reply" +
+                "<img src='" + LOGO_URL + "' alt='Sitegenius'/>" +
+                "© Sitegenius HRMS &nbsp;·&nbsp; Automated notification &nbsp;·&nbsp; Do not reply" +
                 "</div></div></body></html>";
     }
 
@@ -137,7 +137,7 @@ public class EmailService {
                         "</table>" +
                         "<div class='highlight'><p>⏰ Please begin working before the deadline.</p></div>" +
                         "<p style='text-align:center;margin:20px 0;'>" +
-                        "<a href='https://employees.finabits.in' style='display:inline-block;padding:12px 28px;" +
+                        "<a href='https://hrms-fe-ten.vercel.app' style='display:inline-block;padding:12px 28px;" +
                         "background:#1C3461;color:#fff;border-radius:10px;text-decoration:none;" +
                         "font-weight:800;font-size:13px;'>View Task on HRMS →</a></p>" +
                         "<hr class='divider'/>" +
@@ -168,7 +168,7 @@ public class EmailService {
                         "</table>" +
                         "<p style='color:#C0392B;font-weight:600;'>Please submit this task as soon as possible.</p>" +
                         "<p style='text-align:center;margin:20px 0;'>" +
-                        "<a href='https://employees.finabits.in' style='display:inline-block;padding:12px 28px;" +
+                        "<a href='https://hrms-fe-ten.vercel.app' style='display:inline-block;padding:12px 28px;" +
                         "background:#C0392B;color:#fff;border-radius:10px;text-decoration:none;" +
                         "font-weight:800;font-size:13px;'>Submit Task Now →</a></p>" +
                         "<hr class='divider'/>" +
@@ -189,7 +189,7 @@ public class EmailService {
         String actionNote  = approved
                 ? "<p style='color:#15803D;font-weight:600;'>Great work! Your task has been marked complete.</p>"
                 : "<p style='color:#C0392B;font-weight:600;'>Please review the feedback, make corrections, and resubmit.</p>" +
-                "<p style='text-align:center;margin:20px 0;'><a href='https://employees.finabits.in' " +
+                "<p style='text-align:center;margin:20px 0;'><a href='https://hrms-fe-ten.vercel.app' " +
                 "style='display:inline-block;padding:12px 28px;background:#C0392B;color:#fff;border-radius:10px;" +
                 "text-decoration:none;font-weight:800;font-size:13px;'>Rework Task →</a></p>";
         String body = wrap(accentColor, icon, approved ? "Task Approved" : "Task Rejected — Action Required",
@@ -200,7 +200,7 @@ public class EmailService {
                         "<tr><td>Decision</td><td><strong style='color:" + accentColor + ";'>" + status + "</strong></td></tr>" +
                         commentRow + "</table>" + actionNote +
                         "<hr class='divider'/>" +
-                        "<p style='font-size:12px;color:#9AA8BF;'>Log in to Finabits HRMS to view full task history.</p>"
+                        "<p style='font-size:12px;color:#9AA8BF;'>Log in to  Sitegenius HRMS to view full task history.</p>"
         );
         sendEmail(to, subject, body);
     }
@@ -233,7 +233,7 @@ public class EmailService {
                 "<p>Hi <strong>" + employeeName + "</strong>,</p>" +
                         "<p>Your next check-in slot opens in a few minutes.</p>" +
                         "<div class='highlight'><p>📍 Slot Time: <strong>" + slotTime + "</strong></p></div>" +
-                        "<p>Please log in to Finabits HRMS and mark your attendance <strong>at exactly " + slotTime + "</strong>.</p>" +
+                        "<p>Please log in to Sitegenius HRMS and mark your attendance <strong>at exactly " + slotTime + "</strong>.</p>" +
                         "<p style='color:#C0392B;font-weight:600;font-size:12px;'>⚠️ Missing this slot will affect your attendance record.</p>"
         );
         sendEmail(to, subject, body);
@@ -272,7 +272,7 @@ public class EmailService {
                         "<tr><td>Status</td><td style='color:#C0392B;font-weight:800;'>ABSENT</td></tr>" +
                         "<tr><td>Reason</td><td>Work summary not submitted</td></tr>" +
                         "</table>" +
-                        "<p>Submit your daily work summary on Finabits HRMS <strong>before 11:55 PM</strong> every working day to avoid this.</p>"
+                        "<p>Submit your daily work summary on Sitegenius HRMS <strong>before 11:55 PM</strong> every working day to avoid this.</p>"
         );
         sendEmail(to, subject, body);
     }
@@ -343,7 +343,7 @@ public class EmailService {
                         "<li>🔭 Plan for tomorrow</li>" +
                         "</ul>" +
                         "<p style='text-align:center;margin:20px 0;'>" +
-                        "<a href='https://employees.finabits.in' style='display:inline-block;padding:12px 28px;background:#1C3461;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>Submit Summary →</a>" +
+                        "<a href='https://hrms-fe-ten.vercel.app' style='display:inline-block;padding:12px 28px;background:#1C3461;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>Submit Summary →</a>" +
                         "</p>"
         );
         sendEmail(to, subject, body);
@@ -384,7 +384,7 @@ public class EmailService {
                         "</table>" +
                         "<p>" + note + "</p>" +
                         "<p style='text-align:center;margin:20px 0;'>" +
-                        "<a href='https://employees.finabits.in' style='display:inline-block;padding:12px 28px;background:#F59E0B;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>Check Out Now →</a>" +
+                        "<a href='https://hrms-fe-ten.vercel.app' style='display:inline-block;padding:12px 28px;background:#F59E0B;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>Check Out Now →</a>" +
                         "</p>"
         );
         sendEmail(to, subject, body);
@@ -486,7 +486,7 @@ public class EmailService {
                         "<div class='highlight'><p>📝 Reason: " + reason + "</p></div>" +
                         "<p>Please log in to <strong>Finabits HRMS</strong> to review and approve or reject this request.</p>" +
                         "<p style='text-align:center;margin:20px 0;'>" +
-                        "<a href='https://admin.finabits.in/leave' style='display:inline-block;padding:12px 28px;background:#1C3461;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>Review Leave Request →</a>" +
+                        "<a href='https://hrms-fe-ten.vercel.app/leave' style='display:inline-block;padding:12px 28px;background:#1C3461;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>Review Leave Request →</a>" +
                         "</p>" +
                         "<p style='font-size:11px;color:#9AA8BF;'>This is an automated notification. Do not reply to this email.</p>"
         );
@@ -506,9 +506,9 @@ public class EmailService {
                         "<div class='highlight'><p><strong>" + title + "</strong></p></div>" +
                         "<p style='font-size:13.5px;color:#374151;line-height:1.8;'>" + message + "</p>" +
                         "<hr class='divider'/>" +
-                        "<p style='font-size:12px;color:#9AA8BF;'>Log in to Finabits HRMS to view all announcements.</p>" +
+                        "<p style='font-size:12px;color:#9AA8BF;'>Log in to Sitegenius HRMS to view all announcements.</p>" +
                         "<p style='text-align:center;margin:20px 0;'>" +
-                        "<a href='https://employees.finabits.in' style='display:inline-block;padding:12px 28px;background:#1C3461;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>View on HRMS →</a>" +
+                        "<a href='https://hrms-fe-ten.vercel.app' style='display:inline-block;padding:12px 28px;background:#1C3461;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>View on HRMS →</a>" +
                         "</p>"
         );
         sendEmail(to, subject, body);
@@ -556,10 +556,10 @@ public class EmailService {
 
     @Async
     public void sendPasswordResetEmail(String to, String name, String resetLink, int expiryHours) {
-        String subject = "🔑 Reset Your Finabits HRMS Password";
+        String subject = "🔑 Reset Your Sitegenius HRMS Password";
         String body = wrap("#1C3461", "🔑", "Reset Your Password",
                 "<p>Hi <strong>" + name + "</strong>,</p>" +
-                        "<p>We received a request to reset your Finabits HRMS password.</p>" +
+                        "<p>We received a request to reset your Sitegenius HRMS password.</p>" +
                         "<div class='highlight'><p>⏰ This link expires in <strong>" + expiryHours + " hour(s)</strong>.</p></div>" +
                         "<p style='text-align:center;margin:24px 0;'>" +
                         "<a href='" + resetLink + "' style='display:inline-block;padding:14px 32px;background:#1C3461;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:14px;'>Reset My Password →</a>" +
@@ -578,7 +578,7 @@ public class EmailService {
                 "<p>Hi <strong>" + name + "</strong>,</p>" +
                         "<div class='highlight'><p>Your password has been <strong>successfully changed</strong>.</p></div>" +
                         "<p style='text-align:center;margin:20px 0;'>" +
-                        "<a href='https://employees.finabits.in' style='display:inline-block;padding:12px 28px;background:#15803D;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>Go to Login →</a>" +
+                        "<a href='https://hrms-fe-ten.vercel.app' style='display:inline-block;padding:12px 28px;background:#15803D;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>Go to Login →</a>" +
                         "</p>" +
                         "<hr class='divider'/>" +
                         "<p style='font-size:11px;color:#9AA8BF;'>If you did not make this change, contact your admin immediately.</p>"

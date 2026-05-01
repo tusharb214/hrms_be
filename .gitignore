@@ -1,0 +1,83 @@
+# ── Maven ─────────────────────────────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# ── IDE — IntelliJ ────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ── IDE — Eclipse ─────────────────────────────────────────────────────────────
+.classpath
+.project
+.settings/
+bin/
+.factorypath
+
+# ── IDE — VS Code ─────────────────────────────────────────────────────────────
+.vscode/
+
+# ── Spring Boot ───────────────────────────────────────────────────────────────
+*.log
+logs/
+spring-shell.log
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+application-prod.properties
+application-prod.yml
+secrets.properties
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Node (if frontend in same repo) ──────────────────────────────────────────
+node_modules/
+dist/
+.parcel-cache/
+.next/
+.nuxt/
+.vite/
+
+# ── Frontend build output ─────────────────────────────────────────────────────
+/hrms-frontend/dist/
+/hrms-frontend/node_modules/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+.dockerignore
+docker-compose.override.yml
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.bak
+*.tmp
+*.swp
+*.orig
+*.patch
+*.diff

@@ -28,7 +28,7 @@ public class DocumentService {
     private final EmployeeDocumentRepository docRepo;
     private final UserRepository             userRepo;
 
-    @Value("${app.upload.dir:/var/www/finabitsemployeeBE/uploads}")
+    @Value("${app.upload.dir:/var/www/sitegeniusemployee/uploads}")
     private String uploadDir;
 
     // ── Admin: upload document for employee ──────────────────────────────────

@@ -484,7 +484,7 @@ public class EmailService {
                         "<tr><td>Status</td><td style='color:#F59E0B;font-weight:800;'>PENDING — Awaiting Approval</td></tr>" +
                         "</table>" +
                         "<div class='highlight'><p>📝 Reason: " + reason + "</p></div>" +
-                        "<p>Please log in to <strong>Finabits HRMS</strong> to review and approve or reject this request.</p>" +
+                        "<p>Please log in to <strong>Sitegenius.Hrms</strong> to review and approve or reject this request.</p>" +
                         "<p style='text-align:center;margin:20px 0;'>" +
                         "<a href='https://hrms-fe-ten.vercel.app/leave' style='display:inline-block;padding:12px 28px;background:#1C3461;color:#fff;border-radius:10px;text-decoration:none;font-weight:800;font-size:13px;'>Review Leave Request →</a>" +
                         "</p>" +

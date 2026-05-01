@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @OpenAPIDefinition(
     info = @Info(
-        title = "Finabits HRMS API",
+        title = "Sitegenius.Hrms API",
         version = "1.0.0",
         description = "Employee Management System - REST API Documentation",
-        contact = @Contact(name = "Finabits Team", email = "admin@finabits.com")
+        contact = @Contact(name = "Finabits Team", email = "admin@Sitegenius.com")
     ),
     servers = @Server(url = "http://localhost:5550", description = "Local Development")
 )

@@ -34,7 +34,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         registry
                 .addEndpoint("/ws")
                 // TODO for production: replace with your actual domain
-                // .setAllowedOrigins("https://employees.finabits.in")
+                // .setAllowedOrigins("https://hrms-fe-ten.vercel.app")
                 .setAllowedOriginPatterns("*")
                 .withSockJS();
     }

@@ -94,7 +94,7 @@ public class SettingsController {
     public ResponseEntity<ApiResponse<String>> sendBroadcast(
             @RequestBody Map<String, String> body) {
 
-        String subject = body.getOrDefault("subject", "Message from Finabits HRMS");
+        String subject = body.getOrDefault("subject", "Message from Sitegenius.Hrms");
         String message = body.get("message");
         if (message == null || message.isBlank())
             return ResponseEntity.badRequest().body(ApiResponse.error("Message is required"));

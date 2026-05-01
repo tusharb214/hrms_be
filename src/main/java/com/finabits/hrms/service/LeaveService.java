@@ -51,7 +51,7 @@ public class LeaveService {
     private final EmailService              emailService;
     private final NotificationService       notificationService;
 
-    @Value("${app.upload.dir:/var/www/finabitsemployeeBE/uploads}")
+    @Value("${app.upload.dir:/var/www/sitegeniusemployee/uploads}")
     private String uploadDir;
 
     // ── Apply leave with leave type + half day + document upload ─────────────

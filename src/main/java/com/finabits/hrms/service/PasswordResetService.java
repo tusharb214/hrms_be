@@ -25,7 +25,7 @@ public class PasswordResetService {
     private final PasswordEncoder              passwordEncoder;
     private final EmailService                 emailService;
 
-    @Value("${app.frontend.url:https://employees.finabits.in}")
+    @Value("${app.frontend.url:https://hrms-fe-ten.vercel.app}")
     private String frontendUrl;
 
     private static final int TOKEN_EXPIRY_HOURS = 1;

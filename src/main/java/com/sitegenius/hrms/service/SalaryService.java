@@ -384,7 +384,7 @@ public class SalaryService {
 
         for (String[] line : new String[][]{
                 {"Authorized Signatory,",         "normal"},
-                {"Rupesh Sulle",                "bold"},
+                {"Rupesh Sule",                "bold"},
                 {"(Director Hr)",                  "normal"},
                 {"Sitegenius .",               "normal"},
         }) {

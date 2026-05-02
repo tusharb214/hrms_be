@@ -1,7 +1,5 @@
 package com.sitegenius.hrms.dto.response;
 
-import com.sitegenius.hrms.entity.SalaryRequest;
-import com.sitegenius.hrms.enums.LeaveType;
 import com.sitegenius.hrms.enums.Salary;
 import lombok.*;
 

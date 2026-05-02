@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.finabits</groupId>
+    <groupId>com.sitegenius</groupId>
     <artifactId>hrms</artifactId>
     <version>1.0.0</version>
     <name>hrms</name>

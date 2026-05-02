@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
         title = "Sitegenius.Hrms API",
         version = "1.0.0",
         description = "Employee Management System - REST API Documentation",
-        contact = @Contact(name = "Finabits Team", email = "admin@Sitegenius.com")
+        contact = @Contact(name = "Sitegenius Team", email = "admin@Sitegenius.com")
     ),
     servers = @Server(url = "http://localhost:5550", description = "Local Development")
 )

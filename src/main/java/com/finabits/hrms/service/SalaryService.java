@@ -186,13 +186,13 @@ public class SalaryService {
         logoCell.setPaddingBottom(8);
         logoCell.setVerticalAlignment(Element.ALIGN_MIDDLE);
         try {
-            byte[] logoBytes = Files.readAllBytes(Paths.get(logoPath));
-            Image logo = Image.getInstance(logoBytes);
+//            byte[] logoBytes = Files.readAllBytes(Paths.get(logoPath));
+            Image logo = Image.getInstance("https://hrms-fe-ten.vercel.app/logo.png");
             logo.scaleToFit(130, 48);
             logoCell.addElement(logo);
         } catch (Exception e) {
             log.warn("Logo not found: {}", e.getMessage());
-            logoCell.addElement(new Paragraph("finabits", fPeriod));
+            logoCell.addElement(new Paragraph("Sitegenius", fPeriod));
         }
         topRow.addCell(logoCell);
 
@@ -384,9 +384,9 @@ public class SalaryService {
 
         for (String[] line : new String[][]{
                 {"Authorized Signatory,",         "normal"},
-                {"Snehali Valvekar",               "bold"},
+                {"Rupesh Sulle",                "bold"},
                 {"(Director Hr)",                  "normal"},
-                {"Finabits Software Solutions.",   "normal"},
+                {"Sitegenius .",               "normal"},
         }) {
             Font f = line[1].equals("bold") ? fSignBold : fSign;
             Paragraph p = new Paragraph(line[0], f);

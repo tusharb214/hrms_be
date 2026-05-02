@@ -1,10 +1,10 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.entity.PasswordResetToken;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.exception.BadRequestException;
-import com.finabits.hrms.repository.PasswordResetTokenRepository;
-import com.finabits.hrms.repository.UserRepository;
+import com.sitegenius.hrms.entity.PasswordResetToken;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.exception.BadRequestException;
+import com.sitegenius.hrms.repository.PasswordResetTokenRepository;
+import com.sitegenius.hrms.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

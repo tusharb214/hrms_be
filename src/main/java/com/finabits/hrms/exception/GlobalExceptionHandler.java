@@ -1,4 +1,4 @@
-package com.finabits.hrms.exception;
+package com.sitegenius.hrms.exception;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DataAccessException;

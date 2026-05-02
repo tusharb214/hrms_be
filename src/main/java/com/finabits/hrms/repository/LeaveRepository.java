@@ -1,9 +1,9 @@
-package com.finabits.hrms.repository;
+package com.sitegenius.hrms.repository;
 
-import com.finabits.hrms.entity.Leave;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.enums.LeaveStatus;
-import com.finabits.hrms.enums.LeaveType;
+import com.sitegenius.hrms.entity.Leave;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.enums.LeaveStatus;
+import com.sitegenius.hrms.enums.LeaveType;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

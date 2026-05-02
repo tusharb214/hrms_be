@@ -1,14 +1,14 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.dto.response.SalaryRequestResponse;
-import com.finabits.hrms.dto.response.SalaryResponse;
-import com.finabits.hrms.enums.Salary;
-import com.finabits.hrms.entity.SalaryRequest;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.enums.Role;
-import com.finabits.hrms.exception.BadRequestException;
-import com.finabits.hrms.repository.SalaryRequestRepository;
-import com.finabits.hrms.repository.UserRepository;
+import com.sitegenius.hrms.dto.response.SalaryRequestResponse;
+import com.sitegenius.hrms.dto.response.SalaryResponse;
+import com.sitegenius.hrms.enums.Salary;
+import com.sitegenius.hrms.entity.SalaryRequest;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.enums.Role;
+import com.sitegenius.hrms.exception.BadRequestException;
+import com.sitegenius.hrms.repository.SalaryRequestRepository;
+import com.sitegenius.hrms.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

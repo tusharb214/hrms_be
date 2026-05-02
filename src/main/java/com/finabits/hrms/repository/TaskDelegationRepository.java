@@ -1,6 +1,6 @@
-package com.finabits.hrms.repository;
+package com.sitegenius.hrms.repository;
 
-import com.finabits.hrms.entity.TaskDelegation;
+import com.sitegenius.hrms.entity.TaskDelegation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -24,7 +24,7 @@ public interface TaskDelegationRepository extends JpaRepository<TaskDelegation, 
      */
     @Query("SELECT d FROM TaskDelegation d " +
             "WHERE d.task.id = :taskId " +
-            "AND d.type = com.finabits.hrms.entity.TaskDelegation$DelegationType.DELEGATED " +
+            "AND d.type = com.sitegenius.hrms.entity.TaskDelegation$DelegationType.DELEGATED " +
             "ORDER BY d.createdAt DESC")
     List<TaskDelegation> findDelegatedHopsByTaskDesc(@Param("taskId") Long taskId);
 

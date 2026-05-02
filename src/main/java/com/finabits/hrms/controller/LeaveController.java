@@ -1,12 +1,12 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.request.LeaveActionRequest;
-import com.finabits.hrms.dto.request.LeaveRequest;
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.dto.response.LeaveBalanceResponse;
-import com.finabits.hrms.dto.response.LeaveResponse;
-import com.finabits.hrms.enums.LeaveStatus;
-import com.finabits.hrms.service.LeaveService;
+import com.sitegenius.hrms.dto.request.LeaveActionRequest;
+import com.sitegenius.hrms.dto.request.LeaveRequest;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.dto.response.LeaveBalanceResponse;
+import com.sitegenius.hrms.dto.response.LeaveResponse;
+import com.sitegenius.hrms.enums.LeaveStatus;
+import com.sitegenius.hrms.service.LeaveService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -1,4 +1,4 @@
-package com.finabits.hrms.exception;
+package com.sitegenius.hrms.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

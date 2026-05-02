@@ -1,4 +1,4 @@
-package com.finabits.hrms.config;
+package com.sitegenius.hrms.config;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeIn;

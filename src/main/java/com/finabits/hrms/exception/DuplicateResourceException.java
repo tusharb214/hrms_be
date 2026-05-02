@@ -1,4 +1,4 @@
-package com.finabits.hrms.exception;
+package com.sitegenius.hrms.exception;
 
 public class DuplicateResourceException extends RuntimeException {
     public DuplicateResourceException(String message) {

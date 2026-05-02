@@ -1,11 +1,11 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.dto.response.SalaryResponse;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.exception.BadRequestException;
-import com.finabits.hrms.repository.UserRepository;
-import com.finabits.hrms.service.SalaryService;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.dto.response.SalaryResponse;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.exception.BadRequestException;
+import com.sitegenius.hrms.repository.UserRepository;
+import com.sitegenius.hrms.service.SalaryService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -1,6 +1,6 @@
-package com.finabits.hrms.dto.response;
+package com.sitegenius.hrms.dto.response;
 
-import com.finabits.hrms.enums.Role;
+import com.sitegenius.hrms.enums.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

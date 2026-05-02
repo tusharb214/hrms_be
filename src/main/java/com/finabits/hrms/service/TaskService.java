@@ -1,15 +1,15 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.dto.request.TaskRequest.*;
-import com.finabits.hrms.dto.response.TaskResponseDTO.*;
-import com.finabits.hrms.entity.*;
-import com.finabits.hrms.enums.Priority;
-import com.finabits.hrms.enums.TaskStatus;
-import com.finabits.hrms.exception.BadRequestException;
-import com.finabits.hrms.exception.InvalidStatusTransitionException;
-import com.finabits.hrms.exception.ResourceNotFoundException;
-import com.finabits.hrms.exception.UnauthorizedException;
-import com.finabits.hrms.repository.*;
+import com.sitegenius.hrms.dto.request.TaskRequest.*;
+import com.sitegenius.hrms.dto.response.TaskResponseDTO.*;
+import com.sitegenius.hrms.entity.*;
+import com.sitegenius.hrms.enums.Priority;
+import com.sitegenius.hrms.enums.TaskStatus;
+import com.sitegenius.hrms.exception.BadRequestException;
+import com.sitegenius.hrms.exception.InvalidStatusTransitionException;
+import com.sitegenius.hrms.exception.ResourceNotFoundException;
+import com.sitegenius.hrms.exception.UnauthorizedException;
+import com.sitegenius.hrms.repository.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

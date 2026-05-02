@@ -1,9 +1,9 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.dto.response.SalaryRequestResponse;
-import com.finabits.hrms.dto.response.SalaryResponse;
-import com.finabits.hrms.service.SalaryRequestService;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.dto.response.SalaryRequestResponse;
+import com.sitegenius.hrms.dto.response.SalaryResponse;
+import com.sitegenius.hrms.service.SalaryRequestService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

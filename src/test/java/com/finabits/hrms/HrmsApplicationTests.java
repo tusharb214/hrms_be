@@ -1,4 +1,4 @@
-package com.finabits.hrms;
+package com.sitegenius.hrms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

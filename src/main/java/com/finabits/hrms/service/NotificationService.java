@@ -1,10 +1,10 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.entity.Notification;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.enums.Role;
-import com.finabits.hrms.repository.NotificationRepository;
-import com.finabits.hrms.repository.UserRepository;
+import com.sitegenius.hrms.entity.Notification;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.enums.Role;
+import com.sitegenius.hrms.repository.NotificationRepository;
+import com.sitegenius.hrms.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

@@ -1,10 +1,10 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.request.AttendanceRequest;
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.dto.response.AttendanceDayResponse;
-import com.finabits.hrms.dto.response.AttendanceResponse;
-import com.finabits.hrms.service.AttendanceService;
+import com.sitegenius.hrms.dto.request.AttendanceRequest;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.dto.response.AttendanceDayResponse;
+import com.sitegenius.hrms.dto.response.AttendanceResponse;
+import com.sitegenius.hrms.service.AttendanceService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

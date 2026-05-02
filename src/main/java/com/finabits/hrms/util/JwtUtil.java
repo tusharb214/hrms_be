@@ -1,4 +1,4 @@
-package com.finabits.hrms.util;
+package com.sitegenius.hrms.util;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;

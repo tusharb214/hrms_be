@@ -1,11 +1,11 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.entity.Notification;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.exception.ResourceNotFoundException;
-import com.finabits.hrms.repository.UserRepository;
-import com.finabits.hrms.service.NotificationService;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.entity.Notification;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.exception.ResourceNotFoundException;
+import com.sitegenius.hrms.repository.UserRepository;
+import com.sitegenius.hrms.service.NotificationService;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

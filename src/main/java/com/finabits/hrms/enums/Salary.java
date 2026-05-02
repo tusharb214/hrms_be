@@ -1,3 +1,3 @@
-package com.finabits.hrms.enums;
+package com.sitegenius.hrms.enums;
 
 public enum Salary { PENDING, APPROVED, REJECTED }

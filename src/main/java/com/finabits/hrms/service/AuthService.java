@@ -1,13 +1,13 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.dto.request.LoginRequest;
-import com.finabits.hrms.dto.request.RegisterRequest;
-import com.finabits.hrms.dto.response.AuthResponse;
-import com.finabits.hrms.dto.response.UserResponse;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.exception.DuplicateResourceException;
-import com.finabits.hrms.repository.UserRepository;
-import com.finabits.hrms.util.JwtUtil;
+import com.sitegenius.hrms.dto.request.LoginRequest;
+import com.sitegenius.hrms.dto.request.RegisterRequest;
+import com.sitegenius.hrms.dto.response.AuthResponse;
+import com.sitegenius.hrms.dto.response.UserResponse;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.exception.DuplicateResourceException;
+import com.sitegenius.hrms.repository.UserRepository;
+import com.sitegenius.hrms.util.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.AuthenticationManager;

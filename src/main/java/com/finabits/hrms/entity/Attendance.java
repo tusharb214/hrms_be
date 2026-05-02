@@ -1,6 +1,6 @@
-package com.finabits.hrms.entity;
+package com.sitegenius.hrms.entity;
 
-import com.finabits.hrms.enums.AttendanceStatus;
+import com.sitegenius.hrms.enums.AttendanceStatus;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

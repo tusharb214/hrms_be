@@ -1,5 +1,5 @@
 
-package com.finabits.hrms.entity;
+package com.sitegenius.hrms.entity;
 
 import jakarta.persistence.*;
         import lombok.*;

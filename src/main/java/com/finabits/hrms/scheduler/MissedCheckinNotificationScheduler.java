@@ -1,11 +1,11 @@
-package com.finabits.hrms.scheduler;
+package com.sitegenius.hrms.scheduler;
 
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.enums.Role;
-import com.finabits.hrms.repository.AttendanceRepository;
-import com.finabits.hrms.repository.UserRepository;
-import com.finabits.hrms.service.NotificationService;
-import com.finabits.hrms.service.SystemSettingService;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.enums.Role;
+import com.sitegenius.hrms.repository.AttendanceRepository;
+import com.sitegenius.hrms.repository.UserRepository;
+import com.sitegenius.hrms.service.NotificationService;
+import com.sitegenius.hrms.service.SystemSettingService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;

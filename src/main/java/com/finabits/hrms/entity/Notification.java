@@ -1,4 +1,4 @@
-package com.finabits.hrms.entity;
+package com.sitegenius.hrms.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;

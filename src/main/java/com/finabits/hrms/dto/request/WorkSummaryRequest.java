@@ -1,4 +1,4 @@
-package com.finabits.hrms.dto.request;
+package com.sitegenius.hrms.dto.request;
 
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;

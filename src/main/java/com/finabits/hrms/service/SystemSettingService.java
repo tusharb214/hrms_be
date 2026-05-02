@@ -1,9 +1,9 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.dto.request.SettingRequest;
-import com.finabits.hrms.entity.SystemSetting;
-import com.finabits.hrms.exception.ResourceNotFoundException;
-import com.finabits.hrms.repository.SystemSettingRepository;
+import com.sitegenius.hrms.dto.request.SettingRequest;
+import com.sitegenius.hrms.entity.SystemSetting;
+import com.sitegenius.hrms.exception.ResourceNotFoundException;
+import com.sitegenius.hrms.repository.SystemSettingRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

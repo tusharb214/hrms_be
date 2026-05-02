@@ -1,7 +1,7 @@
-package com.finabits.hrms.dto.request;
+package com.sitegenius.hrms.dto.request;
 
-import com.finabits.hrms.enums.Priority;
-import com.finabits.hrms.enums.TaskStatus;
+import com.sitegenius.hrms.enums.Priority;
+import com.sitegenius.hrms.enums.TaskStatus;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;

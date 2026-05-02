@@ -1,8 +1,8 @@
-package com.finabits.hrms.scheduler;
+package com.sitegenius.hrms.scheduler;
 
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.repository.AttendanceRepository;
-import com.finabits.hrms.service.EmailService;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.repository.AttendanceRepository;
+import com.sitegenius.hrms.service.EmailService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;

@@ -1,9 +1,9 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.entity.LeaveTypeConfig;
-import com.finabits.hrms.exception.BadRequestException;
-import com.finabits.hrms.exception.ResourceNotFoundException;
-import com.finabits.hrms.repository.LeaveTypeConfigRepository;
+import com.sitegenius.hrms.entity.LeaveTypeConfig;
+import com.sitegenius.hrms.exception.BadRequestException;
+import com.sitegenius.hrms.exception.ResourceNotFoundException;
+import com.sitegenius.hrms.repository.LeaveTypeConfigRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

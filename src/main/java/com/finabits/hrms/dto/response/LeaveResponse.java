@@ -1,7 +1,7 @@
-package com.finabits.hrms.dto.response;
+package com.sitegenius.hrms.dto.response;
 
-import com.finabits.hrms.enums.LeaveStatus;
-import com.finabits.hrms.enums.LeaveType;
+import com.sitegenius.hrms.enums.LeaveStatus;
+import com.sitegenius.hrms.enums.LeaveType;
 import lombok.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;

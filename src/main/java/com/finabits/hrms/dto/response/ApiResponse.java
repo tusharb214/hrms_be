@@ -1,4 +1,4 @@
-package com.finabits.hrms.dto.response;
+package com.sitegenius.hrms.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

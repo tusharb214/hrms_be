@@ -1,4 +1,4 @@
-package com.finabits.hrms.dto.response;
+package com.sitegenius.hrms.dto.response;
 
 import lombok.*;
 

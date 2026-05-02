@@ -1,8 +1,8 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.entity.SystemSetting;
-import com.finabits.hrms.service.SystemSettingService;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.entity.SystemSetting;
+import com.sitegenius.hrms.service.SystemSettingService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

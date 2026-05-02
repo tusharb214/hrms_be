@@ -1,6 +1,6 @@
-package com.finabits.hrms.repository;
+package com.sitegenius.hrms.repository;
 
-import com.finabits.hrms.entity.Holiday;
+import com.sitegenius.hrms.entity.Holiday;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.time.LocalDate;

@@ -1,10 +1,10 @@
-package com.finabits.hrms.seeder;
+package com.sitegenius.hrms.seeder;
 
-import com.finabits.hrms.entity.SystemSetting;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.enums.Role;
-import com.finabits.hrms.repository.SystemSettingRepository;
-import com.finabits.hrms.repository.UserRepository;
+import com.sitegenius.hrms.entity.SystemSetting;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.enums.Role;
+import com.sitegenius.hrms.repository.SystemSettingRepository;
+import com.sitegenius.hrms.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

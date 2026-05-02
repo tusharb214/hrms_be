@@ -1,8 +1,8 @@
-package com.finabits.hrms.repository;
+package com.sitegenius.hrms.repository;
 
-import com.finabits.hrms.entity.SalaryRequest;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.enums.Salary;
+import com.sitegenius.hrms.entity.SalaryRequest;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.enums.Salary;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

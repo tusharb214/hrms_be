@@ -1,11 +1,11 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.request.TaskRequest.*;
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.dto.response.TaskResponseDTO.*;
-import com.finabits.hrms.entity.TaskChatMessage;
-import com.finabits.hrms.enums.TaskStatus;
-import com.finabits.hrms.service.TaskService;
+import com.sitegenius.hrms.dto.request.TaskRequest.*;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.dto.response.TaskResponseDTO.*;
+import com.sitegenius.hrms.entity.TaskChatMessage;
+import com.sitegenius.hrms.enums.TaskStatus;
+import com.sitegenius.hrms.service.TaskService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

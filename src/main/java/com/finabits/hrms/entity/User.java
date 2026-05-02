@@ -1,6 +1,6 @@
-package com.finabits.hrms.entity;
+package com.sitegenius.hrms.entity;
 
-import com.finabits.hrms.enums.Role;
+import com.sitegenius.hrms.enums.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;

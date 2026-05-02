@@ -1,7 +1,7 @@
-package com.finabits.hrms.entity;
+package com.sitegenius.hrms.entity;
 
-import com.finabits.hrms.enums.LeaveStatus;
-import com.finabits.hrms.enums.LeaveType;
+import com.sitegenius.hrms.enums.LeaveStatus;
+import com.sitegenius.hrms.enums.LeaveType;
 import jakarta.persistence.*;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.*;

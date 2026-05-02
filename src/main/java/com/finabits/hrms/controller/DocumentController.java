@@ -1,8 +1,8 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.entity.EmployeeDocument;
-import com.finabits.hrms.service.DocumentService;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.entity.EmployeeDocument;
+import com.sitegenius.hrms.service.DocumentService;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
@@ -65,7 +65,7 @@ public class DocumentController {
         // Employee uploads for themselves — get their own ID from security context
         String email = org.springframework.security.core.context.SecurityContextHolder
                 .getContext().getAuthentication().getName();
-        com.finabits.hrms.repository.UserRepository userRepo =
+        com.sitegenius.hrms.repository.UserRepository userRepo =
                 documentService.getUserRepo();
         Long userId = userRepo.findByEmail(email).orElseThrow().getId();
         return ResponseEntity.ok(ApiResponse.success("Document uploaded",

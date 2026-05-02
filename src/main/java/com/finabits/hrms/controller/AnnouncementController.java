@@ -1,9 +1,9 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.request.AnnouncementRequest;
-import com.finabits.hrms.dto.response.AnnouncementResponse;
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.service.AnnouncementService;
+import com.sitegenius.hrms.dto.request.AnnouncementRequest;
+import com.sitegenius.hrms.dto.response.AnnouncementResponse;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.service.AnnouncementService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

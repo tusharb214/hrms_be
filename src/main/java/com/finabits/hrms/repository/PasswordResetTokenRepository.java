@@ -1,7 +1,7 @@
-package com.finabits.hrms.repository;
+package com.sitegenius.hrms.repository;
 
-import com.finabits.hrms.entity.PasswordResetToken;
-import com.finabits.hrms.entity.User;
+import com.sitegenius.hrms.entity.PasswordResetToken;
+import com.sitegenius.hrms.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

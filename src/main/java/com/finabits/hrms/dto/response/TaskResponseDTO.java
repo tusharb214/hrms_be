@@ -1,7 +1,7 @@
-package com.finabits.hrms.dto.response;
+package com.sitegenius.hrms.dto.response;
 
-import com.finabits.hrms.enums.Priority;
-import com.finabits.hrms.enums.TaskStatus;
+import com.sitegenius.hrms.enums.Priority;
+import com.sitegenius.hrms.enums.TaskStatus;
 import lombok.Data;
 
 import java.time.LocalDate;

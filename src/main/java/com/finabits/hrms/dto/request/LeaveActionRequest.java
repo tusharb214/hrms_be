@@ -1,6 +1,6 @@
-package com.finabits.hrms.dto.request;
+package com.sitegenius.hrms.dto.request;
 
-import com.finabits.hrms.enums.LeaveStatus;
+import com.sitegenius.hrms.enums.LeaveStatus;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 

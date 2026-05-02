@@ -1,4 +1,4 @@
-package com.finabits.hrms.exception;
+package com.sitegenius.hrms.exception;
 
 public class BadRequestException extends RuntimeException {
     public BadRequestException(String message) {

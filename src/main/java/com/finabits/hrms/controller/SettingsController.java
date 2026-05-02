@@ -1,13 +1,13 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.request.SettingRequest;
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.entity.SystemSetting;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.enums.Role;
-import com.finabits.hrms.repository.UserRepository;
-import com.finabits.hrms.service.EmailService;
-import com.finabits.hrms.service.SystemSettingService;
+import com.sitegenius.hrms.dto.request.SettingRequest;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.entity.SystemSetting;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.enums.Role;
+import com.sitegenius.hrms.repository.UserRepository;
+import com.sitegenius.hrms.service.EmailService;
+import com.sitegenius.hrms.service.SystemSettingService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

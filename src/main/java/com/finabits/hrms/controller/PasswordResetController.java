@@ -1,9 +1,9 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.request.ForgotPasswordRequest;
-import com.finabits.hrms.dto.request.ResetPasswordRequest;
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.service.PasswordResetService;
+import com.sitegenius.hrms.dto.request.ForgotPasswordRequest;
+import com.sitegenius.hrms.dto.request.ResetPasswordRequest;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.service.PasswordResetService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;

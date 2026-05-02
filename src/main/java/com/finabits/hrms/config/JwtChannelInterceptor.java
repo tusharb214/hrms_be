@@ -1,6 +1,6 @@
-package com.finabits.hrms.config;
+package com.sitegenius.hrms.config;
 
-import com.finabits.hrms.util.JwtUtil;
+import com.sitegenius.hrms.util.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.Message;

@@ -1,7 +1,7 @@
-package com.finabits.hrms.config;
+package com.sitegenius.hrms.config;
 
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.repository.UserRepository;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.*;

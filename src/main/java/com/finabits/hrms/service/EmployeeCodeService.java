@@ -1,7 +1,7 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.repository.UserRepository;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.ApplicationArguments;
@@ -26,7 +26,7 @@ import java.util.List;
 @Slf4j
 public class EmployeeCodeService implements ApplicationRunner {
 
-    private static final String PREFIX  = "FIN-";
+    private static final String PREFIX  = "SG-";
     private static final int    BASE    = 1000;
 
     private final UserRepository userRepository;

@@ -1,11 +1,11 @@
-package com.finabits.hrms.entity;
+package com.sitegenius.hrms.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import com.finabits.hrms.enums.Salary;
+import com.sitegenius.hrms.enums.Salary;
 import java.time.LocalDateTime;
 
 @Entity

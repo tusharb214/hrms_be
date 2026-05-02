@@ -1,8 +1,8 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.entity.LeaveTypeConfig;
-import com.finabits.hrms.service.LeaveTypeConfigService;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.entity.LeaveTypeConfig;
+import com.sitegenius.hrms.service.LeaveTypeConfigService;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;

@@ -1,6 +1,6 @@
-package com.finabits.hrms.dto.response;
+package com.sitegenius.hrms.dto.response;
 
-import com.finabits.hrms.enums.AttendanceStatus;
+import com.sitegenius.hrms.enums.AttendanceStatus;
 import lombok.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;

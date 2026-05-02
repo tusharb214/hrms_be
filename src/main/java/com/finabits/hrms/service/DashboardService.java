@@ -1,12 +1,12 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.dto.response.DashboardResponse;
-import com.finabits.hrms.entity.Attendance;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.enums.Role;
-import com.finabits.hrms.repository.AttendanceRepository;
-import com.finabits.hrms.repository.LeaveRepository;
-import com.finabits.hrms.repository.UserRepository;
+import com.sitegenius.hrms.dto.response.DashboardResponse;
+import com.sitegenius.hrms.entity.Attendance;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.enums.Role;
+import com.sitegenius.hrms.repository.AttendanceRepository;
+import com.sitegenius.hrms.repository.LeaveRepository;
+import com.sitegenius.hrms.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

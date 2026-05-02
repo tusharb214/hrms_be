@@ -1,6 +1,6 @@
-package com.finabits.hrms.repository;
+package com.sitegenius.hrms.repository;
 
-import com.finabits.hrms.entity.SystemSetting;
+import com.sitegenius.hrms.entity.SystemSetting;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

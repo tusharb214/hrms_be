@@ -1,4 +1,4 @@
-package com.finabits.hrms.config;
+package com.sitegenius.hrms.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

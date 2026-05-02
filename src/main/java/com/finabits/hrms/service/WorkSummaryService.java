@@ -1,14 +1,14 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.dto.request.WorkSummaryRequest;
-import com.finabits.hrms.dto.response.WorkSummaryResponse;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.entity.WorkSummary;
-import com.finabits.hrms.exception.BadRequestException;
-import com.finabits.hrms.exception.ResourceNotFoundException;
-import com.finabits.hrms.repository.AttendanceRepository;
-import com.finabits.hrms.repository.UserRepository;
-import com.finabits.hrms.repository.WorkSummaryRepository;
+import com.sitegenius.hrms.dto.request.WorkSummaryRequest;
+import com.sitegenius.hrms.dto.response.WorkSummaryResponse;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.entity.WorkSummary;
+import com.sitegenius.hrms.exception.BadRequestException;
+import com.sitegenius.hrms.exception.ResourceNotFoundException;
+import com.sitegenius.hrms.repository.AttendanceRepository;
+import com.sitegenius.hrms.repository.UserRepository;
+import com.sitegenius.hrms.repository.WorkSummaryRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

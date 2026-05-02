@@ -1,7 +1,7 @@
-package com.finabits.hrms.config;
+package com.sitegenius.hrms.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.finabits.hrms.util.JwtUtil;
+import com.sitegenius.hrms.util.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

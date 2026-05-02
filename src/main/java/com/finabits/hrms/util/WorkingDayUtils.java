@@ -1,4 +1,4 @@
-package com.finabits.hrms.util;
+package com.sitegenius.hrms.util;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;

@@ -1,9 +1,9 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.dto.request.HolidayRequest;
-import com.finabits.hrms.dto.response.ApiResponse;
-import com.finabits.hrms.entity.Holiday;
-import com.finabits.hrms.service.HolidayService;
+import com.sitegenius.hrms.dto.request.HolidayRequest;
+import com.sitegenius.hrms.dto.response.ApiResponse;
+import com.sitegenius.hrms.entity.Holiday;
+import com.sitegenius.hrms.service.HolidayService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

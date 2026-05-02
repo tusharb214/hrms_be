@@ -1,6 +1,6 @@
-package com.finabits.hrms.repository;
+package com.sitegenius.hrms.repository;
 
-import com.finabits.hrms.entity.LeaveTypeConfig;
+import com.sitegenius.hrms.entity.LeaveTypeConfig;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 import java.util.Optional;

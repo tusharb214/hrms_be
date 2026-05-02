@@ -1,7 +1,7 @@
-package com.finabits.hrms.controller;
+package com.sitegenius.hrms.controller;
 
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.service.ReportService;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.service.ReportService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

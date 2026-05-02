@@ -1,4 +1,4 @@
-package com.finabits.hrms.enums;
+package com.sitegenius.hrms.enums;
 
 public enum LeaveStatus {
     PENDING,

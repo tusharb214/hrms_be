@@ -1,11 +1,11 @@
-package com.finabits.hrms.service;
+package com.sitegenius.hrms.service;
 
-import com.finabits.hrms.entity.EmployeeDocument;
-import com.finabits.hrms.entity.User;
-import com.finabits.hrms.exception.BadRequestException;
-import com.finabits.hrms.exception.ResourceNotFoundException;
-import com.finabits.hrms.repository.EmployeeDocumentRepository;
-import com.finabits.hrms.repository.UserRepository;
+import com.sitegenius.hrms.entity.EmployeeDocument;
+import com.sitegenius.hrms.entity.User;
+import com.sitegenius.hrms.exception.BadRequestException;
+import com.sitegenius.hrms.exception.ResourceNotFoundException;
+import com.sitegenius.hrms.repository.EmployeeDocumentRepository;
+import com.sitegenius.hrms.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

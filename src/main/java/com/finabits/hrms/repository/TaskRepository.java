@@ -1,7 +1,7 @@
-package com.finabits.hrms.repository;
+package com.sitegenius.hrms.repository;
 
-import com.finabits.hrms.entity.Task;
-import com.finabits.hrms.enums.TaskStatus;
+import com.sitegenius.hrms.entity.Task;
+import com.sitegenius.hrms.enums.TaskStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

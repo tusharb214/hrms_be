@@ -1,4 +1,4 @@
-package com.finabits.hrms.dto.request;
+package com.sitegenius.hrms.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
